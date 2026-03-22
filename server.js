@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        message: "Welcome to Express.js in Docker"
+        message: "Testing: Volume mounting in docker with express image"
     })
 });
 
